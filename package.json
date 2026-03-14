@@ -1,5 +1,5 @@
 {
-  "name": "interstellar-ice",
+  "name": "jeff-lean",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -12,6 +12,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/netlify": "^7.0.2",
     "astro": "^6.0.4"
   }
 }
