@@ -1,0 +1,22 @@
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  display: grid;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  justify-items: center;
+  font-size: small;
+}

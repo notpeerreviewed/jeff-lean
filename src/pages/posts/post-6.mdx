@@ -1,0 +1,19 @@
+---
+layout: ../../layouts/MarkdownPostLayout.astro
+title: Pokemon Grid project
+author: Jeff Lean
+description: "This post was written as part of the D3 Loves React course."
+
+pubDate: 2026-04-03
+tags: ["astro", "pokemon"]
+---
+
+import PokemonApp from "../../components/PokemonApp.jsx";
+
+### Instructions:
+
+Click on a button to show the Pokemon that correspond to that type.
+
+Buttons can be toggled so if you select one type you can click the same button again to select all.
+
+<PokemonApp client:load />
