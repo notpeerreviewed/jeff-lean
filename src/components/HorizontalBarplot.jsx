@@ -10,7 +10,7 @@ const HorizontalBarplot = ({ data, width = 800, height = 600 }) => {
   // X scale (values)
   const xScale = d3
     .scaleLinear()
-    .domain([0, d3.max(data, (d) => +d.students)])
+    .domain([0, d3.max(data, (d) => d.students)])
     .range([0, innerWidth]);
 
   // Y scale (categories)
