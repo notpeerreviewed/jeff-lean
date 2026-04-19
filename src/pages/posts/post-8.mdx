@@ -1,0 +1,17 @@
+---
+layout: ../../layouts/MarkdownPostLayout.astro
+title: Gapminder reproduction
+author: Jeff Lean
+description: "This post shows a reproduction of the famous Gapminder dataset, with a few tweaks."
+
+pubDate: 2026-04-18
+tags: ["astro", "d3"]
+---
+
+import GapminderChart from "../../components/GapminderChart.jsx";
+
+### Gapminder reimagining
+
+This chart is a reproduction of the famous Gapminder dataset. I'm intending to do some exploration of the code and add some further functionality along the way as learning exercises for myself.
+
+<GapminderChart client:load />
